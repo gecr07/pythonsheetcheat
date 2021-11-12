@@ -24,10 +24,13 @@ print(string.strip(' geeks'))
 
 ```
 
-<h2> Regex </h2> 
+<h2> Regular Expr</h2> 
+<h3> look ahead look forward </h3>
 <ol>
 <li>bar(?=bar)     finds the 1st bar ("bar" which has "bar" after it)           </li>
 <li> bar(?!bar)     finds the 2nd bar ("bar" which does not have "bar" after it)</li>
 <li> (?<=foo)bar    finds the 1st bar ("bar" which has "foo" before it)            </li> 
- <p> (?<!foo)bar    finds the 2nd bar ("bar" which does not have "foo" before it) </p> 
+  
+#(?<!foo)bar    finds the 2nd bar ("bar" which does not have "foo" before it) 
+  
 </ol>
