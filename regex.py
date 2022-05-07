@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+# RAW Strings
+
+# Que no inteprete el salto de linea si no un string en bruto
+#raw_s = r'Hi\nHello'
+#print(raw_s)
+#Output: Hi\nHello
 
 import re
 
