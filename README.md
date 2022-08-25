@@ -95,6 +95,11 @@ python -m pip install -U pip wheel setuptools
 ```
 ## Palabras clave
 
+### PyPA
+
+> The Python Packaging Authority (PyPA) is a working group that maintains a core set of software projects used in Python packaging.
+The software developed through the PyPA is used to package, share, and install Python software and to interact with indexes of downloadable Python software such as PyPI, the Python Package Index. Click the logo below to download pip, the most prominent software used to interact with PyPI.
+
 ### CPython
 
 Cuando escribe pythonen la consola o instala una distribución de Python desde python.org , está ejecutando CPython . CPython es uno de los muchos tiempos de ejecución de Python, mantenido y escrito por diferentes equipos de desarrolladores. Algunos otros tiempos de ejecución que puede haber escuchado son PyPy , Cython y Jython .
@@ -130,6 +135,10 @@ Osea que un *** source distribution*** traes todo el codigo fuente incluso archi
 ## PyPI
 
 > El Python Package Index o PyPI es el repositorio de software oficial para aplicaciones de terceros en el lenguaje de programación Python. Los desarrolladores de Python pretenden que sea un catálogo exhaustivo de todos los paquetes de Python escritos en código abierto1​
+
+# Importante 
+
+> Las ruedas eliminaron setup.pyla ejecución de la ecuación. La instalación desde una distribución de origen ejecuta lo que esté contenido en el archivo setup.py. Como señaló PEP 427 , esto equivale a la ejecución de código arbitrario. Las ruedas evitan esto por completo.
 
 # .WHL
 Un archivo de Python .whl esencialmente un archivo ZIP ( .zip) con un nombre de archivo especialmente diseñado que le dice a los instaladores qué versiones y plataformas de Python admitirá la rueda.
@@ -183,5 +192,6 @@ Puedes dividir esto en sus etiquetas:
 4. ****none: *** es la etiqueta ABI, lo que significa que ABI no es un factor.
 5. ***any: ***es la plataforma. Esta rueda funcionará en prácticamente cualquier plataforma.
 6. El ***py2.py3-none-any.whl*** segmento del nombre de la rueda es común. Esta es una rueda universal que se instalará con Python 2 o 3 en cualquier plataforma con cualquier ABI . Si la rueda termina en none-any.whl, es muy probable que se trate de un paquete de Python puro al que no le importa una ABI de Python o una arquitectura de CPU específicas.
+
 
 
