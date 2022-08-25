@@ -95,6 +95,11 @@ python -m pip install -U pip wheel setuptools
 ```
 ## Palabras clave
 
+### wheel and sdist
+
+Wheel propociona todo se baja del repositorio PyPi ya compilado mientras sdist tienes que compilar todo y es mas dificil que se instale
+
+
 ### Que pasa cuando haces pip
 
 > TAR file (tarball) named uwsgi-2.0.18.tar.gz that’s been compressed with gzip.
