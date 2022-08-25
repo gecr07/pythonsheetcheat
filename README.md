@@ -95,9 +95,11 @@ python -m pip install -U pip wheel setuptools
 ```
 ## Palabras clave
 
-### wheel and sdist
+### wheel vs sdist
 
-Wheel propociona todo se baja del repositorio PyPi ya compilado mientras sdist tienes que compilar todo y es mas dificil que se instale
+Wheel propociona todo se baja del repositorio PyPi ya compilado mientras sdist tienes que compilar todo y es mas dificil que se instale.
+
+>La instalación desde ruedas evita directamente el paso intermedio de construir paquetes a partir de la distribución de origen
 
 
 ### Que pasa cuando haces pip
