@@ -37,8 +37,39 @@ print(string.strip(' geeks'))
 </ol>
 
 ```
+# python -m venv 
+
+Es un  modulo que tiene python integrado compite con virtualenv para evitar problemas usaremos el anterior ay mas documentacion.
+
+# virtualenv para crear entornos virutales y separar librerias
+
+Instalar el virtualenv
+
+```
+sudo apt install virtualenv -y 
+
+```
+
+Crear un entorno virtual
+```
+virtualenv mi_env 
+
+```
+
+Primero se usa ese comando lo cual crea una capeta con algunos archivos que se usan para generar el entorno virtual
+
+Activar el virtualenv:
+
+````
+source mi_env/bin/activate
+```
+
+
+
 
 # Que son las wheels y como se usan
 
 >Las ruedas son un componente del ecosistema de Python que ayuda a que las instalaciones de paquetes funcionen . Permiten instalaciones más rápidas y más estabilidad en el proceso de distribución de paquetes. En este tutorial, se sumergirá en lo que son las ruedas, para qué sirven y cómo han ganado tracción y han hecho que Python sea aún más agradable para trabajar.
+
+
 
