@@ -113,7 +113,7 @@ Wheel propociona todo se baja del repositorio PyPi ya compilado mientras sdist t
 Todo lo anterior en un caso ideal que se instale bien python es aberrante y cambia todo el tiempo revislo
 
 
-## sdist
+## sdist (distribuciones de origen)
 
 > El tar.gztarball que piprecupera es una distribución de origen , o sdist, en lugar de una rueda. De alguna manera, a sdistes lo opuesto a una rueda.
 > Una distribución fuente contiene código fuente. Eso incluye no solo el código de Python, sino también el código fuente de cualquier módulo de extensión (generalmente en C o C++ ) incluido con el paquete. Con las distribuciones de código fuente, los módulos de extensión se compilan del lado del usuario en lugar del desarrollador.
