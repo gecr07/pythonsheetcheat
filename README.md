@@ -114,3 +114,8 @@ Todo lo anterior en un caso ideal que se instale bien python es aberrante y camb
 > Una distribución fuente contiene código fuente. Eso incluye no solo el código de Python, sino también el código fuente de cualquier módulo de extensión (generalmente en C o C++ ) incluido con el paquete. Con las distribuciones de código fuente, los módulos de extensión se compilan del lado del usuario en lugar del desarrollador.
 
 Osea que un *** source distribution*** traes todo el codigo fuente incluso archivos que son e c o c++ y se supone se compila de lado del cliente cuanod lo descargas vaya.
+
+## PyPI
+
+> El Python Package Index o PyPI es el repositorio de software oficial para aplicaciones de terceros en el lenguaje de programación Python. Los desarrolladores de Python pretenden que sea un catálogo exhaustivo de todos los paquetes de Python escritos en código abierto1​
+
