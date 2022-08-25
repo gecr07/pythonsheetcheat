@@ -34,3 +34,7 @@ print(string.strip(' geeks'))
 #(?<!foo)bar    finds the 2nd bar ("bar" which does not have "foo" before it) 
   
 </ol>
+# Que son las wheels y como se usan
+
+>Las ruedas son un componente del ecosistema de Python que ayuda a que las instalaciones de paquetes funcionen . Permiten instalaciones más rápidas y más estabilidad en el proceso de distribución de paquetes. En este tutorial, se sumergirá en lo que son las ruedas, para qué sirven y cómo han ganado tracción y han hecho que Python sea aún más agradable para trabajar.
+
