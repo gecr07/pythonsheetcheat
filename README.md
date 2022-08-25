@@ -61,9 +61,10 @@ Primero se usa ese comando lo cual crea una capeta con algunos archivos que se u
 
 Activar el virtualenv:
 
-````
+```
 source mi_env/bin/activate
 ```
+
 
 Esto activa el entorno virtual y permite que todas las dependencias se instalen aisladas. Cuando se activa el entorno se mira algo asi:
 
