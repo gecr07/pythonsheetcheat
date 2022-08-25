@@ -194,4 +194,13 @@ Puedes dividir esto en sus etiquetas:
 6. El ***py2.py3-none-any.whl*** segmento del nombre de la rueda es común. Esta es una rueda universal que se instalará con Python 2 o 3 en cualquier plataforma con cualquier ABI . Si la rueda termina en none-any.whl, es muy probable que se trate de un paquete de Python puro al que no le importa una ABI de Python o una arquitectura de CPU específicas.
 
 
+## Descargar solo .whl
+
+```
+python -m pip download --only-binary :all: --dest . --no-cache six
+```
+
+1. --only-binary: all: tells pip to constrain itself to using wheels and ignore source distributions. Without this option, pip will only prefer wheels but will fall back to source distributions in some scenarios.
+2. --dest: . tells pip to download six to the current directory.
+3. --no-cache: tells pip not to look in its local download cache. You use this option just to illustrate a live download from PyPI since it’s likely you do have a six cache somewhere.
 
