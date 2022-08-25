@@ -63,7 +63,18 @@ Activar el virtualenv:
 ````
 source mi_env/bin/activate
 ```
+esto activa el entorno virtual y permite que todas las dependencias se instalen aisladas. Cuando se activa el entorno se mira algo asi:
 
+```
+(mi_env)─(kali㉿kali)-[~]
+pip install django
+
+```
+Desactivar el entorno se hace asi 
+
+```
+deactivate
+```
 
 
 
