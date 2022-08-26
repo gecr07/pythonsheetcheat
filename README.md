@@ -204,3 +204,6 @@ python -m pip download --only-binary :all: --dest . --no-cache six
 2. --dest: . tells pip to download six to the current directory.
 3. --no-cache: tells pip not to look in its local download cache. You use this option just to illustrate a live download from PyPI since it’s likely you do have a six cache somewhere.
 
+Referencias 
+
+> https://realpython.com/python-wheels/
